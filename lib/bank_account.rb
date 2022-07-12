@@ -9,8 +9,9 @@ class BankAccount
     @balance = balance
   end
 
-  def deposit(amount)
-    @balance = @balance + amount
+  def deposit(money_in)
+    @balance = @balance + money_in
+
   end
 
   def withdraw(amount)
